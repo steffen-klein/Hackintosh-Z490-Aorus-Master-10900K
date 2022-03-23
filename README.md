@@ -7,6 +7,7 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 - [Acidanthera](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [WhateverGreen](https://github.com/acidanthera/WhateverGreen), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), and [Lilu](https://github.com/acidanthera/Lilu)
 - [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [MountEFI](https://github.com/corpnewt/MountEFI) from [corpnewt](https://github.com/corpnewt)
+- 
 
 ## Hardware
 
@@ -43,14 +44,20 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 - Compare your settings to the following screenshots:
 
 ### Generation of installation medium
-- Create bootdrive according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
+- Create boot drive according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
 - Mount the EFI of you installation medium and copy the content of this repository to the EFI folder. To easily mount the EFI, I highly recommned [MountEFI](https://github.com/corpnewt/MountEFI) from [corpnewt](https://github.com/corpnewt)
 - You still need to edit the config.plist and create your custom PlatformInfo for **iMacPro1,1** using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). I highly recommend [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) or [ProperTree](https://github.com/corpnewt/ProperTree) to edit the config.plist.
 
 ### OS installation
 
+-  Boot from the boot drive and install macOS to the hard drive.
+
 ### Post-install steps
+
+- Mount the EFI of your hard drive with the macOS installation and copy the previously created EFI folder. This allows to directly boot from you hard drive.
+- For proper sleep, setup sleep setting according to [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#fixing-sleep)
 
 ## Details on the installation
 
 ### USB mapping
+- The following image shows the USB mapping of the Gigabyte Aorus Master Z490 mainboard:
