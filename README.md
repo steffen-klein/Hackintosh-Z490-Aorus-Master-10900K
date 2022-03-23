@@ -65,6 +65,7 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 - The following image shows the port mapping of the mainboard:
 
 - The following table shows details of the mapped ports:
+
 | Name | Port     | Type | Active in USBMap.kext |
 |------|----------|------|-----------------------|
 | HS03 | 03000000 | 0    | enabled               |
