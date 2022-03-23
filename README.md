@@ -41,7 +41,6 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 
 ### Pre-install steps
 - Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings).
-- Compare your settings to the following screenshots:
 
 ### Generation of installation medium
 - Create boot drive according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
@@ -60,4 +59,27 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 ## Details on the installation
 
 ### USB mapping
-- The following image shows the USB mapping of the Gigabyte Aorus Master Z490 mainboard:
+
+- The USB ports of the Gigabyte Aorus Master Z490 was mapped according to [this guide](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit).
+- To not exceed the 15 port limit o macOS HS06 is disabled. This means that there is no USB2.0 support for the USB3.2 Type-C port of the mainboard.
+- The following image shows the port mapping of the mainboard:
+
+- The following table shows details of the mapped ports:
+- | Name | Port     | Type | Active in USBMap.kext |
+|------|----------|------|-----------------------|
+| HS03 | 03000000 | 0    | enabled               |
+| HS04 | 04000000 | 0    | enabled               |
+| HS05 | 05000000 | 0    | enabled               |
+| HS06 | 06000000 | 0    | disabled              |
+| HS07 | 07000000 | 0    | enabled               |
+| HS08 | 08000000 | 0    | enabled               |
+| HS09 | 09000000 | 0    | enabled               |
+| HS11 | 0B000000 | 0    | enabled               |
+| HS13 | 0D000000 | 255  | enabled               |
+| SS03 | 13000000 | 3    | enabled               |
+| SS04 | 14000000 | 3    | enabled               |
+| SS05 | 15000000 | 3    | enabled               |
+| SS06 | 16000000 | 8    | enabled               |
+| SS07 | 17000000 | 3    | enabled               |
+| SS08 | 18000000 | 3    | enabled               |
+| SS09 | 19000000 | 3    | enabled               |
