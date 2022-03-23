@@ -7,12 +7,12 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 - **CPU**: Intel i9 10900K
 - **Mainboard**: Gigabyte Aorus Master Z490
   - 2.5Gbit Ethernet: Intel I225-V
-  - Audio: (disabled)
-  - WiFi: (disabled)
-  - Bluetooth: (disabled)
+  - Audio: Realtek ALC1220-VB (disabled)
+  - WiFi / BT: Intel Wi-Fi 6 AX201 (disabled)
 - **GPU**: XFX AMD Radeon RX 5700 DD Ultra
   - Flashed with XFX AMD Radeon RX 5700 XT Thicc II BIOS
-- **WiFi / BT**: PCI extension card with 
+- **WiFi / BT**: PCIe extension card with Broadcom BCM94360CD chip
+- **Audio**: External USB DAC/AMP
 
 ## Working stuff
 
