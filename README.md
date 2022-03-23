@@ -7,7 +7,7 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 - [Acidanthera](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [WhateverGreen](https://github.com/acidanthera/WhateverGreen), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), and [Lilu](https://github.com/acidanthera/Lilu)
 - [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [MountEFI](https://github.com/corpnewt/MountEFI) from [corpnewt](https://github.com/corpnewt)
-- [RadeonSensor][https://github.com/aluveitie/RadeonSensor) from [aluveitie](https://github.com/aluveitie)
+- [RadeonSensor](https://github.com/aluveitie/RadeonSensor) from [aluveitie](https://github.com/aluveitie)
 
 ## Hardware
 
