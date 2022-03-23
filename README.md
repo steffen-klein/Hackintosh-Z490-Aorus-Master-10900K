@@ -84,3 +84,4 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 | SS09 | 19000000 | 3    | enabled               |
 
 - The following image shows the port mapping of the mainboard:
+![UBS Mapping for Z490 Aorus Master](UBS%20Mapping%20for%20Z490%20Aorus%20Master.png?raw=true "Title")
