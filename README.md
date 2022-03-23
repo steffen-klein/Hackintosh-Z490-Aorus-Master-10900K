@@ -1,6 +1,6 @@
 # Hackintosh-Z490-Aorus-Master-10900K
 
-This is a repository of my EFI folder for my Hackintosh. Details on the used hardware is listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs.
+This is a repository of my EFI folder for my Hackintosh. Details on the used hardware is listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs. 
 
 ## Hardware
 
@@ -16,7 +16,19 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 
 ## Working stuff
 
+- Onboard ehternet via Intel I225-V
+- All USB ports (properly mapped, see section below)
+- AppleTV, Netflix, Amazon Prime
+- Sleep/Wake
+- Shutdown
+
 ## Not working
+
+- Sidecar
+
+## Not tested
+- Onboard audio via Realtek ALC1220-VB
+- Onboard WiFi / BT via Intel Wi-Fi 6 AX201
 
 ## Installation
 
@@ -33,3 +45,6 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 ### USB mapping
 
 ## Credit
+
+- [Acidanthera](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [WhateverGreen][https://github.com/acidanthera/WhateverGreen), [VirtualSMC][https://github.com/acidanthera/VirtualSMC), and [Lilu](https://github.com/acidanthera/Lilu)
+- [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
