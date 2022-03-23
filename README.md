@@ -38,8 +38,12 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 ## Installation
 
 ### Pre-install steps
+- Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings).
+- Compare your settings to the following screenshots:
 
 ### Generation of installation medium
+- Create bootdrive according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
+- Mount the EFI of you installation medium and copy the content of this repository to the EFI folder
 
 ### OS installation
 
