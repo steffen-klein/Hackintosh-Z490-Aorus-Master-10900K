@@ -116,3 +116,6 @@ To reduce the power draw of the CPU and achieve a more silent operation, I appli
   - **Turbo Ratio (10-Core Active)**: 48
 - **Package Power Limit2 (Watts)**: 180
 - **Package Power Limit1 (Watts)**: 180
+
+#### Settings – Smart Fan 5 ####
+To reduce the operation noise of the system, I applied a custom fan curve to all fans in the system:
