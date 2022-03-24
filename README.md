@@ -46,17 +46,17 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 - Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings).
 
 ### Generation of installation medium
-- Create boot drive according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
-- Mount the EFI of you installation medium and copy the content of this repository to the EFI folder. To easily mount the EFI, I highly recommned [MountEFI](https://github.com/corpnewt/MountEFI) from [corpnewt](https://github.com/corpnewt)
+- Create an installation medium according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
+- Mount the EFI partition of you installation medium and copy the content of this repository to the EFI partition. To easily mount the EFI partition, I highly recommned [MountEFI](https://github.com/corpnewt/MountEFI) from [corpnewt](https://github.com/corpnewt)
 - You still need to edit the config.plist and create your custom PlatformInfo for **iMacPro1,1** using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). I highly recommend [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) or [ProperTree](https://github.com/corpnewt/ProperTree) to edit the config.plist.
 
 ### OS installation
 
--  Boot from the boot drive and install macOS to the hard drive.
+-  Boot from the installation medium and install macOS to the SSD.
 
 ### Post-install steps
 
-- Mount the EFI of your hard drive with the macOS installation and copy the previously created EFI folder. This allows to directly boot from you hard drive.
+- Mount the EFI partition of your SSD and copy the previously created EFI folder. This allows to directly boot from your SSD.
 - For proper sleep, setup sleep setting according to [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#fixing-sleep)
 
 ## Quirks
