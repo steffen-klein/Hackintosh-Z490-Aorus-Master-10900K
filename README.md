@@ -43,7 +43,37 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 ## Installation
 
 ### Pre-install steps
-- Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings).
+- Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings):
+
+#### Tweaker – Advanced CPU settings  ####
+- **VT-d**: Disabled
+
+#### Settings – IO Ports ####
+- **Internal Graphics**: Disabled
+- **Aperture Size**: 2048MB
+- **OnBoard LAN Controller**: Enabled
+- **Audio Controller**: Disabled
+- **Above 4G Deconding**: Enabled
+- **Re-Size BAR Support**: Auto
+
+#### Settings – IO Ports - USB Configuration ####
+- **Legacy USB Support**: Disabled
+- **XHCI Hand-off**: Enabled
+
+#### Settings – Miscellaneous ####
+- **Intel Platform Trust Technology(PTT)**: Enabled
+- **Software Guard Extensions(SGX)**: Disabled
+
+#### Settings – Miscellaneous – Trusted Computing ####
+- **Security Device Suppert**: Enabled
+
+#### Boot ####
+- **Fast Boot**: Disable Link
+- **Windows 10 Features**: Windows 10 WHQL
+- **CSM Support**: Disabled
+
+#### Boot - Secure Boot ####
+??
 
 ### Generation of installation medium
 - Create an installation medium according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
