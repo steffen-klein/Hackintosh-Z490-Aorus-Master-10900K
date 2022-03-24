@@ -89,3 +89,30 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 - The following image shows the port mapping of the mainboard:
 
 ![UBS Mapping for Z490 Aorus Master](USB%20Mapping%20for%20Z490%20Aorus%20Master.png?raw=true "Title")
+
+### i9 10900k unvervolting
+To reduce the power draw of the CPU and achieve a more silent operation, I applied the following BIOS settings:
+
+#### Tweaker ####
+
+- **CPU Clock Ration**: 53
+- **Extreme Memory Profile(X.M.P.)**: Profile1
+- **CPU Vcore**: Normal
+- **Dynamic Vcore(DVID)**: -0.070V
+
+#### Tweaker – Advanced CPU Settings ####
+
+- **Turbo Power Limits**: Enabled
+- **Active Turbo Ratios**: Enabled
+  - **Turbo Ratio (1-Core Active)**: 53
+  - **Turbo Ratio (2-Core Active)**: 53
+  - **Turbo Ratio (3-Core Active)**: 51
+  - **Turbo Ratio (4-Core Active)**: 51
+  - **Turbo Ratio (5-Core Active)**: 50
+  - **Turbo Ratio (6-Core Active)**: 50
+  - **Turbo Ratio (7-Core Active)**: 49
+  - **Turbo Ratio (8-Core Active)**: 49
+  - **Turbo Ratio (9-Core Active)**: 48
+  - **Turbo Ratio (10-Core Active)**: 48
+- **Package Power Limit2 (Watts)**: 180
+- **Package Power Limit1 (Watts)**: 180
