@@ -49,8 +49,8 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 - **VT-d**: Disabled
 
 #### Settings – IO Ports ####
-- **Internal Graphics**: Disabled
-- **Aperture Size**: 2048MB
+- **Internal Graphics**: Enabled
+- **Aperture Size**: 256MB
 - **OnBoard LAN Controller**: Enabled
 - **Audio Controller**: Disabled
 - **Above 4G Deconding**: Enabled
