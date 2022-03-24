@@ -4,10 +4,11 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 
 ## Credits
 
-- [Acidanthera](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [WhateverGreen](https://github.com/acidanthera/WhateverGreen), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), and [Lilu](https://github.com/acidanthera/Lilu)
+- [Acidanthera](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [WhateverGreen](https://github.com/acidanthera/WhateverGreen), and [NVMeFix](https://github.com/acidanthera/NVMeFix)
 - [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [MountEFI](https://github.com/corpnewt/MountEFI) from [corpnewt](https://github.com/corpnewt)
 - [RadeonSensor](https://github.com/aluveitie/RadeonSensor) from [aluveitie](https://github.com/aluveitie)
+- [ProperTree](https://github.com/corpnewt/ProperTree)
 
 ## Hardware
 
@@ -88,6 +89,3 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 - The following image shows the port mapping of the mainboard:
 
 ![UBS Mapping for Z490 Aorus Master](USB%20Mapping%20for%20Z490%20Aorus%20Master.png?raw=true "Title")
-
-### AMD 5700 on MacOS 12.3
-- 
