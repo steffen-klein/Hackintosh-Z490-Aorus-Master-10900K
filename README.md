@@ -26,7 +26,7 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 
 ## Working stuff
 
-- Onboard ehternet via Intel I225-V
+- Onboard ethernet via Intel I225-V
 - All USB ports (properly mapped, see section below)
 - AppleTV, Netflix, Amazon Prime
 - Sleep/Wake
