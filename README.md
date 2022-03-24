@@ -43,7 +43,7 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 ## Installation
 
 ### Pre-install steps
-- Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings):
+- Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings). In the following the relevant settings are listed. You can also find a BIOS settings file under BIOS/BIOS-VXX_Z490-AORUS-MASTER.
 
 #### Tweaker – Advanced CPU settings  ####
 - **VT-d**: Disabled
