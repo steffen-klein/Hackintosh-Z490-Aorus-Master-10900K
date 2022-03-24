@@ -1,6 +1,6 @@
 # Hackintosh-Z490-Aorus-Master-10900K
 
-This is a repository of my EFI folder for my Hackintosh. Details on the used hardware is listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs. 
+This is a repository of the EFI folder for my Hackintosh. Details on the used hardware are listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs. 
 
 ## Credits
 
@@ -11,15 +11,17 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 
 ## Hardware
 
-- **CPU**: Intel i9 10900K
 - **Mainboard**: Gigabyte Aorus Master Z490
   - 2.5Gbit Ethernet: Intel I225-V
   - Audio: Realtek ALC1220-VB (disabled)
   - WiFi / BT: Intel Wi-Fi 6 AX201 (disabled)
+- **CPU**: Intel i9 10900K
+- **RAM**: Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz C16
 - **GPU**: XFX AMD Radeon RX 5700 DD Ultra
   - Flashed with XFX AMD Radeon RX 5700 XT Thicc II BIOS
 - **WiFi / BT**: PCIe extension card with Broadcom BCM94360CD chip
-- **Audio**: External USB DAC/AMP
+- **Audio**: External USB DAC/AMP - Schiit Modius & Schiit Asgard
+- **Storage**: WD_BLACK SN750 NVMe SSD 2 TB
 
 ## Working stuff
 
@@ -56,7 +58,7 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 - Mount the EFI of your hard drive with the macOS installation and copy the previously created EFI folder. This allows to directly boot from you hard drive.
 - For proper sleep, setup sleep setting according to [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#fixing-sleep)
 
-## Details on the installation
+## Quirks
 
 ### USB mapping
 
@@ -86,3 +88,6 @@ This is a repository of my EFI folder for my Hackintosh. Details on the used har
 - The following image shows the port mapping of the mainboard:
 
 ![UBS Mapping for Z490 Aorus Master](USB%20Mapping%20for%20Z490%20Aorus%20Master.png?raw=true "Title")
+
+### AMD 5700 on MacOS 12.3
+- 
