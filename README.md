@@ -1,8 +1,8 @@
-# Hackintosh-Z490-Aorus-Master-10900K
+# Hackintosh-Z490-Aorus-Master-10900K #
 
 This is a repository of the EFI folder for my Hackintosh. Details on the used hardware are listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs. 
 
-## Credits
+## Credits ##
 
 - [Acidanthera](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [WhateverGreen](https://github.com/acidanthera/WhateverGreen), and [NVMeFix](https://github.com/acidanthera/NVMeFix)
 - [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
@@ -10,7 +10,7 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 - [RadeonSensor](https://github.com/aluveitie/RadeonSensor) from [aluveitie](https://github.com/aluveitie)
 - [ProperTree](https://github.com/corpnewt/ProperTree)
 
-## Hardware
+## Hardware ##
 
 - **Mainboard**: Gigabyte Aorus Master Z490
   - 2.5Gbit Ethernet: Intel I225-V
@@ -24,7 +24,7 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 - **Audio**: External USB DAC/AMP - Schiit Modius & Schiit Asgard
 - **Storage**: WD_BLACK SN750 NVMe SSD 2 TB
 
-## Working stuff
+## Working stuff ##
 
 - Onboard ethernet via Intel I225-V
 - All USB ports (properly mapped, see section below)
@@ -32,18 +32,18 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 - Sleep/Wake
 - Shutdown
 
-## Not working
+## Not working ##
 
 - Sidecar
 
-## Not tested
+## Not tested ##
 - Onboard audio via Realtek ALC1220-VB
 - Onboard WiFi / BT via Intel Wi-Fi 6 AX201
 
-## Installation
+## Installation ##
 
-### Pre-install steps
-- Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings). In the following the relevant settings are listed. You can also find a BIOS settings file under BIOS/BIOS-VXX_Z490-AORUS-MASTER.
+### Pre-install steps ###
+Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings). In the following the relevant settings are listed. You can also find a BIOS settings file under BIOS/BIOS-VXX_Z490-AORUS-MASTER.
 
 #### Tweaker – Advanced CPU settings  ####
 - **VT-d**: Disabled
@@ -75,23 +75,23 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 #### Boot - Secure Boot ####
 ??
 
-### Generation of installation medium
+### Generation of installation medium ###
 - Create an installation medium according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
 - Mount the EFI partition of you installation medium and copy the content of this repository to the EFI partition. To easily mount the EFI partition, I highly recommned [MountEFI](https://github.com/corpnewt/MountEFI) from [corpnewt](https://github.com/corpnewt)
 - You still need to edit the config.plist and create your custom PlatformInfo for **iMacPro1,1** using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). I highly recommend [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) or [ProperTree](https://github.com/corpnewt/ProperTree) to edit the config.plist.
 
-### OS installation
+### OS installation ###
 
 -  Boot from the installation medium and install macOS to the SSD.
 
-### Post-install steps
+### Post-install steps ###
 
 - Mount the EFI partition of your SSD and copy the previously created EFI folder. This allows to directly boot from your SSD.
 - For proper sleep, setup sleep setting according to [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#fixing-sleep)
 
-## Quirks
+## Quirks ##
 
-### USB mapping
+### USB mapping ###
 
 - The USB ports of the Gigabyte Aorus Master Z490 were mapped according to [this guide](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit).
 - To not exceed the 15 port limit of macOS HS06 is disabled. This means that there is no USB2.0 support for the USB3.2 Type-C port of the mainboard.
@@ -120,7 +120,7 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 
 ![UBS Mapping for Z490 Aorus Master](USB%20Mapping%20for%20Z490%20Aorus%20Master.png?raw=true "Title")
 
-### i9 10900k unvervolting
+### i9 10900k unvervolting ###
 To reduce the power draw of the CPU and achieve a more silent operation, I applied the following BIOS settings:
 
 #### Tweaker ####
