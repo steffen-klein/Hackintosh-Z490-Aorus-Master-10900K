@@ -63,7 +63,7 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
 
 ### USB mapping
 
-- The USB ports of the Gigabyte Aorus Master Z490 was mapped according to [this guide](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit).
+- The USB ports of the Gigabyte Aorus Master Z490 were mapped according to [this guide](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit).
 - To not exceed the 15 port limit o macOS HS06 is disabled. This means that there is no USB2.0 support for the USB3.2 Type-C port of the mainboard.
 - The following table shows details of the mapped ports:
 
