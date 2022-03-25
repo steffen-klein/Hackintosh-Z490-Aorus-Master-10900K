@@ -128,24 +128,9 @@ To reduce the power draw of the CPU and achieve a more silent operation, I appli
 - **CPU Clock Ration**: 53
 - **Extreme Memory Profile(X.M.P.)**: Profile1
 - **CPU Vcore**: Normal
-- **Dynamic Vcore(DVID)**: -0.070V
-
-#### Tweaker – Advanced CPU Settings ####
-
-- **Turbo Power Limits**: Enabled
-- **Active Turbo Ratios**: Enabled
-  - **Turbo Ratio (1-Core Active)**: 53
-  - **Turbo Ratio (2-Core Active)**: 53
-  - **Turbo Ratio (3-Core Active)**: 51
-  - **Turbo Ratio (4-Core Active)**: 51
-  - **Turbo Ratio (5-Core Active)**: 50
-  - **Turbo Ratio (6-Core Active)**: 50
-  - **Turbo Ratio (7-Core Active)**: 49
-  - **Turbo Ratio (8-Core Active)**: 49
-  - **Turbo Ratio (9-Core Active)**: 48
-  - **Turbo Ratio (10-Core Active)**: 48
-- **Package Power Limit2 (Watts)**: 180
-- **Package Power Limit1 (Watts)**: 180
+- **Dynamic Vcore(DVID)**: -0.065V (Need to be manually optimized in small steps)
 
 #### Settings – Smart Fan 5 ####
 To reduce the operation noise of the system, I applied a custom fan curve to all fans in the system:
+
+![Smart FAN 5](./BIOS/Screenshots/14%20%20Settings%20-%20Smart%20Fan%205.png?raw=true "Title")
