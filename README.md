@@ -50,6 +50,8 @@ Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install
 
 #### Settings – IO Ports ####
 - **Internal Graphics**: Enabled
+- **DVMT Pre-Allocated**: 64MB
+- **DVMT Total Gfx Mem**: 256MB
 - **Aperture Size**: 256MB
 - **OnBoard LAN Controller**: Enabled
 - **Audio Controller**: Disabled
@@ -61,7 +63,7 @@ Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install
 - **XHCI Hand-off**: Enabled
 
 #### Settings – Miscellaneous ####
-- **Intel Platform Trust Technology(PTT)**: Enabled
+- **Intel Platform Trust Technology(PTT)**: Disabled
 - **Software Guard Extensions(SGX)**: Disabled
 
 #### Settings – Miscellaneous – Trusted Computing ####
@@ -73,7 +75,7 @@ Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install
 - **CSM Support**: Disabled
 
 #### Boot - Secure Boot ####
-??
+- **Secure Boot Enable**: Disabled
 
 ### Generation of installation medium ###
 - Create an installation medium according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
@@ -129,6 +131,20 @@ To reduce the power draw of the CPU and achieve a more silent operation, I appli
 - **Extreme Memory Profile(X.M.P.)**: Profile1
 - **CPU Vcore**: Normal
 - **Dynamic Vcore(DVID)**: -0.065V (Need to be manually optimized in small steps)
+
+#### Tweaker – Advanced CPU Settings ####
+
+ - **Active Turbo Ratios**: Enabled
+   - **Turbo Ratio (1-Core Active)**: 53
+   - **Turbo Ratio (2-Core Active)**: 53
+   - **Turbo Ratio (3-Core Active)**: 51
+   - **Turbo Ratio (4-Core Active)**: 51
+   - **Turbo Ratio (5-Core Active)**: 50
+   - **Turbo Ratio (6-Core Active)**: 50
+   - **Turbo Ratio (7-Core Active)**: 49
+   - **Turbo Ratio (8-Core Active)**: 49
+   - **Turbo Ratio (9-Core Active)**: 48
+   - **Turbo Ratio (10-Core Active)**: 48
 
 #### Settings – Smart Fan 5 ####
 To reduce the operation noise of the system, I applied a custom fan curve to all fans in the system:
