@@ -51,7 +51,7 @@ Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install
 #### Settings – IO Ports ####
 - **Internal Graphics**: Enabled
 - **DVMT Pre-Allocated**: 64MB
-- **DVMT Total Gfx Mem**: 256MB
+- **DVMT Total Gfx Mem**: MAX
 - **Aperture Size**: 256MB
 - **OnBoard LAN Controller**: Enabled
 - **Audio Controller**: Disabled
@@ -63,7 +63,7 @@ Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install
 - **XHCI Hand-off**: Enabled
 
 #### Settings – Miscellaneous ####
-- **Intel Platform Trust Technology(PTT)**: Disabled
+- **Intel Platform Trust Technology(PTT)**: Enabled
 - **Software Guard Extensions(SGX)**: Disabled
 
 #### Settings – Miscellaneous – Trusted Computing ####
@@ -137,16 +137,19 @@ To reduce the power draw of the CPU and achieve a more silent operation, I appli
  - **Active Turbo Ratios**: Enabled
    - **Turbo Ratio (1-Core Active)**: 53
    - **Turbo Ratio (2-Core Active)**: 53
-   - **Turbo Ratio (3-Core Active)**: 51
-   - **Turbo Ratio (4-Core Active)**: 51
-   - **Turbo Ratio (5-Core Active)**: 50
-   - **Turbo Ratio (6-Core Active)**: 50
-   - **Turbo Ratio (7-Core Active)**: 49
-   - **Turbo Ratio (8-Core Active)**: 49
-   - **Turbo Ratio (9-Core Active)**: 48
-   - **Turbo Ratio (10-Core Active)**: 48
+   - **Turbo Ratio (3-Core Active)**: 52
+   - **Turbo Ratio (4-Core Active)**: 52
+   - **Turbo Ratio (5-Core Active)**: 51
+   - **Turbo Ratio (6-Core Active)**: 51
+   - **Turbo Ratio (7-Core Active)**: 50
+   - **Turbo Ratio (8-Core Active)**: 50
+   - **Turbo Ratio (9-Core Active)**: 49
+   - **Turbo Ratio (10-Core Active)**: 49
+ - **Turbo Power Limits**: Enabled
+    - **Package Power Limit1 - TDP (Watts)**: 180
+    - **Package Power Limit2 (Watts)**: 180
 
 #### Settings – Smart Fan 5 ####
 To reduce the operation noise of the system, I applied a custom fan curve to all fans in the system:
 
-![Smart FAN 5](./BIOS/Screenshots/14%20%20Settings%20-%20Smart%20Fan%205.png?raw=true "Title")
+![Smart FAN 5](./BIOS/Screenshots/20_Settings_Smart-Fan-5.png?raw=true "Title")
