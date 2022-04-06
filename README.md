@@ -124,7 +124,7 @@ Next, setup Bios according to [this guide](https://dortania.github.io/OpenCore-I
 
 ![UBS Mapping for Z490 Aorus Master](USB%20Mapping%20for%20Z490%20Aorus%20Master.png?raw=true "Title")
 
-### i9 10900k unvervolting ###
+### i9 10900k undervolting ###
 To reduce the power draw of the CPU and achieve a more silent operation, I applied the following BIOS settings:
 
 #### Tweaker ####
