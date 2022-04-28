@@ -18,11 +18,11 @@ This is a repository of the EFI folder for my Hackintosh. Details on the used ha
   - WiFi / BT: Intel Wi-Fi 6 AX201 (disabled)
 - **CPU**: Intel i9 10900K
 - **RAM**: Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz C16
-- **GPU**: XFX AMD Radeon RX 5700 DD Ultra
-  - Flashed with XFX AMD Radeon RX 5700 XT Thicc II BIOS
+- **GPU**: AMD Radeon™ RX 6800 XT Graphics
 - **WiFi / BT**: PCIe extension card with Broadcom BCM94360CD chip
 - **Audio**: External USB DAC/AMP - Schiit Modius & Schiit Asgard
 - **Storage**: WD_BLACK SN750 NVMe SSD 2 TB
+- **PSU**: BeQuiet! Dark Power 12 1000W
 
 ## Working stuff ##
 
