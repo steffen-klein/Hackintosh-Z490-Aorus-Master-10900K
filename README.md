@@ -81,7 +81,7 @@ Next, setup Bios according to [this guide](https://dortania.github.io/OpenCore-I
 
 ### Generation of installation medium ###
 - Create an installation medium according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) (you will need access to another Mac)
-- Mount the EFI partition of you installation medium and copy the content of this repository to the EFI partition. To easily mount the EFI partition, I highly recommned [MountEFI](https://github.com/corpnewt/MountEFI) from [corpnewt](https://github.com/corpnewt)
+- Mount the EFI partition of the installation medium and copy the content of this repository to the EFI partition. To easily mount the EFI partition, I highly recommned [MountEFI](https://github.com/corpnewt/MountEFI) from [corpnewt](https://github.com/corpnewt)
 - You still need to edit the config.plist and create your custom PlatformInfo for **iMacPro1,1** using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). I highly recommend [PlistEdit Pro](https://www.fatcatsoftware.com/plisteditpro/) or [ProperTree](https://github.com/corpnewt/ProperTree) to edit the config.plist.
 
 ### OS installation ###
