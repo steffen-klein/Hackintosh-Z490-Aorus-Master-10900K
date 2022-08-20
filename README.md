@@ -1,6 +1,6 @@
 # Hackintosh – Z490 Aorus Master – Intel 10900K – AMD 6800 XT #
 
-This is a repository of the EFI folder for my Hackintosh. Details on the used hardware are listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs. 
+This is a repository of a custom EFI which allows the installation of macOS on the Z490 Aorus Master Mainboard with the Intel 10900K CPU. Details on the used hardware are listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs. 
 
 ## Credits ##
 
