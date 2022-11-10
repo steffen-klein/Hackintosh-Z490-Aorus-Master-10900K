@@ -1,6 +1,8 @@
 # Hackintosh – Z490 Aorus Master – Intel 10900K – AMD 6800 XT #
 
-This is a repository of a custom EFI which allows the installation of macOS on the Z490 Aorus Master Mainboard with the Intel 10900K CPU. Details on the used hardware are listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs. 
+This is a repository of a custom EFI which allows the installation of macOS on the Z490 Aorus Master Mainboard with the Intel 10900K CPU. Details on the used hardware are listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs.
+
+The current guide was tested with OpenCore 0.85 and macOS Venture 13.0
 
 ## Credits ##
 
@@ -26,7 +28,7 @@ This is a repository of a custom EFI which allows the installation of macOS on t
 
 ## Working stuff ##
 
-- Onboard ethernet via Intel I225-V
+- Onboard ethernet via Intel I225-V ([custom firmware needs to be flashed](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225-V_FIX.md#option-2-flashing-a-custom-firmware))
 - All USB ports (properly mapped, see section below)
 - AppleTV, Netflix, Amazon Prime
 - Sleep/Wake
@@ -35,10 +37,10 @@ This is a repository of a custom EFI which allows the installation of macOS on t
 ## Not working ##
 
 - Sidecar
+- Onboard WiFi / BT via Intel Wi-Fi 6 AX201
 
 ## Not tested ##
 - Onboard audio via Realtek ALC1220-VB
-- Onboard WiFi / BT via Intel Wi-Fi 6 AX201
 
 ## Installation ##
 
@@ -48,7 +50,7 @@ First, I highly recommend to update the BIOS to the latest version. In this guid
 Next, setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings). In the following the relevant settings are listed. You can also find a BIOS settings file under Z490-AORUS-MASTER-BIOS-V21-SETTINGS and screenshots of all BIOS settings.
 
 #### Tweaker – Advanced CPU settings  ####
-- **VT-d**: Disabled
+- **VT-d**: Enabled
 
 #### Settings – IO Ports ####
 - **Internal Graphics**: Enabled
