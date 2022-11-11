@@ -97,6 +97,10 @@ Next, setup Bios according to [this guide](https://dortania.github.io/OpenCore-I
 
 ## Quirks ##
 
+### Flash custom firmware to Intel I225-V  ###
+- Since macOS 13.0, the Intel I225-V LAN controller is not working anymore OOB
+- A custom firmware is fixing this issue. See detailed instructions [here](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225-V_FIX.md#option-2-flashing-a-custom-firmware)
+
 ### USB mapping ###
 
 - The USB ports of the Gigabyte Aorus Master Z490 were mapped according to [this guide](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit).
