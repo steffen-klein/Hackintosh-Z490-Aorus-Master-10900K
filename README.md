@@ -45,19 +45,17 @@ The current guide was tested with OpenCore 0.85 and macOS Venture 13.0
 ## Installation ##
 
 ### Pre-install steps ###
-First, I highly recommend to update the BIOS to the latest version. In this guide, I am using Version 21 of the Gigabyte Aorus Master Z490.
-
-Next, setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings). In the following the relevant settings are listed. You can also find a BIOS settings file under Z490-AORUS-MASTER-BIOS-V21-SETTINGS and screenshots of all BIOS settings.
-
 The onboard ethernet Intel I225-V is not compatible is macOS Ventura out-of-the-box (OOB) as the firmware is not compatible. A custom firmware can be flashed to the ethernet controller to achieve OOB compatbility. Please follow this guide [this guide](https://github.com/5T33Z0/Gigabyte-Z490-Vision-G-Hackintosh-OpenCore/blob/main/I225-V_FIX.md#option-2-flashing-a-custom-firmware).
+
+I highly recommend to update the BIOS to the latest version. In this guide, I am using Version 21 of the Gigabyte Aorus Master Z490.
+
+Setup Bios according to [this guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#intel-bios-settings). In the following the relevant settings are listed. You can also find a BIOS settings file under Z490-AORUS-MASTER-BIOS-V21-SETTINGS and screenshots of all BIOS settings.
 
 #### Tweaker – Advanced CPU settings  ####
 - **VT-d**: Enabled
 
 #### Settings – IO Ports ####
-- **Internal Graphics**: Enabled
-- **DVMT Pre-Allocated**: 64MB
-- **DVMT Total Gfx Mem**: MAX
+- **Internal Graphics**: Disabled
 - **Aperture Size**: 256MB
 - **OnBoard LAN Controller**: Enabled
 - **Audio Controller**: Disabled
