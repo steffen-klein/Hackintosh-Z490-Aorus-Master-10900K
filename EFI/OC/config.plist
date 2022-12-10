@@ -193,13 +193,6 @@
 				AQ==
 				</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				AwDImw==
-				</data>
-			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
