@@ -2,7 +2,7 @@
 
 This is a repository of a custom EFI which allows the installation of macOS on the Z490 Aorus Master Mainboard with the Intel 10900K CPU. Details on the used hardware are listed below. The installation is completely based on OpenCore and I basically followed the excellent guide from [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html) for Comet Lake CPUs.
 
-The current guide was tested with OpenCore 0.85 and macOS Venture 13.0
+The current guide was tested with OpenCore 0.87 and macOS Venture 13.0.1
 
 ## Credits ##
 
