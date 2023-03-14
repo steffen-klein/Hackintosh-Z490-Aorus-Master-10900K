@@ -19,7 +19,7 @@ The current guide was tested with OpenCore 0.87 and macOS Venture 13.0.1
   - Audio: Realtek ALC1220-VB (disabled)
   - WiFi / BT: Intel Wi-Fi 6 AX201 (disabled)
 - **CPU**: Intel i9 10900K
-- **RAM**: Corsair Vengeance LPX 32GB (2 x 16GB) DDR4 3200MHz C16
+- **RAM**: Corsair Vengeance LPX 64GB (4 x 16GB) DDR4 3200MHz C16
 - **GPU**: AMD Radeon™ RX 6800 XT Graphics
 - **WiFi / BT**: PCIe extension card with Broadcom BCM94360CD chip
 - **Audio**: External USB DAC/AMP - Schiit Modius & Schiit Asgard
